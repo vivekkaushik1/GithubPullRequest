@@ -3,7 +3,7 @@ echo hello world
 x=1
 y=1
 j=1
-while [ $x -le 90 ]
+while [ $x -le 100 ]
 do
   echo "Welcome $x times"
   string=Gitlab_Perf_$((x-1))

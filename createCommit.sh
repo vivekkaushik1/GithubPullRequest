@@ -1,7 +1,7 @@
 string=""
 x=1
 j=1
- while [ $x -le 100 ]
+ while [ $x -le 10 ]
  do
   rm -rf random*
   touch randomfile$((j+x))
